@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="GaitoBotEditor.exe" version="2.7.0.1" publicKeyToken="1763487bddb6f388" language="en-GB" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="App.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="GaitoBotEditor" version="2.7.0.37793" language="neutral" processorArchitecture="msil" />
+    <commandLine file="GaitoBotEditor.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet class="System.Security.PermissionSet" version="1" ID="Custom" SameSite="site" Unrestricted="true" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC-Manifestoptionen
+          Wenn Sie die Zugangsebene für das Windows-Benutzerkonto ändern möchten, ersetzen Sie den 
+          requestedExecutionLevel-Knoten durch eines der folgenden Elemente.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Löschen Sie den requestedExecutionLevel-Knoten, wenn Sie 
+         zum Gewährleisten der Abwärtskompatibilität die Datei- und Registrierungsvirtualisierung verwenden möchten.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Data.Entity" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Antlr3.Runtime.dll" size="99328">
+      <assemblyIdentity name="Antlr3.Runtime" version="3.3.1.7705" publicKeyToken="EB42632606E9261F" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>hI8VnsxU82a0W71QqE6wn4IO/UE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="de.springwald.gaitobot.content.dll" size="392192">
+      <assemblyIdentity name="de.springwald.gaitobot.content" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>aPNzJkqJM1yNyPhl81z4CgUJWPE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="de.springwald.gaitobot.publizierung.dll" size="20992">
+      <assemblyIdentity name="de.springwald.gaitobot.publizierung" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>BY2lHdYl0RJcqHfOVD/tQL8TErk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="de.springwald.gaitobot.verwaltung.dll" size="28160">
+      <assemblyIdentity name="de.springwald.gaitobot.verwaltung" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>zjeYCoM1eiTM80XgGkkj5I27pF8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="en\de.springwald.gaitobot.verwaltung.resources.dll" size="4608">
+      <assemblyIdentity name="de.springwald.gaitobot.verwaltung.resources" version="1.0.0.0" language="en" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>mOaruUf7q4pkI5iEMA5vFcwmN3U=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="de.springwald.gaitobot2.dll" size="69632">
+      <assemblyIdentity name="de.springwald.gaitobot2" version="1.0.5435.3521" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>r/SKwWMM95QI6W1OqQwSJ31vD2A=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="de.springwald.toolbox.dll" size="114688">
+      <assemblyIdentity name="de.springwald.toolbox" version="1.0.5435.3521" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>s8lrhce2SX8COsm+DKKwhcMRBXA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="de\de.springwald.toolbox.resources.dll" size="5632">
+      <assemblyIdentity name="de.springwald.toolbox.resources" version="1.0.5435.3521" language="de" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>oRhaV69fTaLqip0AuTUBjPBTHVU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="de.springwald.xml.dll" size="147456">
+      <assemblyIdentity name="de.springwald.xml" version="1.0.5463.37774" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>Nv8Xt5P/eXi36SWeRwO6oMNsOkQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="en\de.springwald.xml.resources.dll" size="3072">
+      <assemblyIdentity name="de.springwald.xml.resources" version="1.0.2095.13872" language="en" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>a3cdISje2uiHN70TzBkf33/+O6o=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="de\de.springwald.xml.resources.dll" size="8192">
+      <assemblyIdentity name="de.springwald.xml.resources" version="1.0.5463.37774" language="de" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>+GDdh/C6JzImk5E0Pi6d/1wvuik=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GaitoBotEditor.exe" size="959352">
+      <assemblyIdentity name="GaitoBotEditor" version="2.7.0.37793" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>dMnFVBlx2D5N8ciNaZvZTY4yD4A=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="de\GaitoBotEditor.resources.dll" size="40960">
+      <assemblyIdentity name="GaitoBotEditor.resources" version="2.7.0.37793" language="de" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>cwDmS3lHCO0WKbOMBYy4Yveq+4c=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="en\GaitoBotEditor.resources.dll" size="13824">
+      <assemblyIdentity name="GaitoBotEditor.resources" version="2.7.0.37793" language="en" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>S/SmjDpXs1968nTJZ3PIP7+hZoA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GaitoBotEditorCore.dll" size="397312">
+      <assemblyIdentity name="GaitoBotEditorCore" version="2.0.5463.37792" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>bblaJfT/XbMLB1mBEo5rbWLMAuc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="de\GaitoBotEditorCore.resources.dll" size="49152">
+      <assemblyIdentity name="GaitoBotEditorCore.resources" version="2.0.5463.37792" language="de" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>pQVdD4upqvDLmjenCrwqsjcPZYg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="en\GaitoBotEditorCore.resources.dll" size="28672">
+      <assemblyIdentity name="GaitoBotEditorCore.resources" version="2.0.5463.37792" language="en" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>7D5k7yWw9vUL6P8wcfU3qxgwLFs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Jint.dll" size="416768">
+      <assemblyIdentity name="Jint" version="0.9.2.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>ZkSBtOeOT5DJUDCidSJKrZDVoR8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SandDock.dll" size="356352">
+      <assemblyIdentity name="SandDock" version="3.0.5.1" publicKeyToken="75B7EC17DD7C14C3" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>8/y5is6KOONP7HWDOZ7GkeRDdr8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="about\neutral\about.txt" size="813">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>sLcI9T5hreMrG0KzebATTR2ena4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="App.ico" size="12862">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Tj4MNA4e6qtIdpQSg55nOf+mkT8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="EULA\de\EULA.htm" size="11635">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>JZGkK6U7b0b0VK/dgX+3880XUkE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="EULA\neutral\EULA.htm" size="10182">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>YY/E9HuWUdVeIwDcWXYdZUIfWqU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="GaitoBotEditor.exe.config" size="192">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>NMy1yuOOiZYhsuy4ah5V8NriLqk=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Springwald Software GmbH, O=Springwald Software GmbH, STREET=Alter Eistreff 36, L=Bochum, S=NRW, PostalCode=44789, C=DE" issuerKeyHash="1ec5b12c7d87da02687c25bc0c07843fb6cfdef1" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>a34zqdhQCWF4sojPv/N9h2+K9J0=</DigestValue></Reference></SignedInfo><SignatureValue>jLHFs2iQcUWMFovGQzHjXew+PKCjCpfE3vWLOSSclOp4WzucZ6YafITL3jzqmukyECOSBaiD5YCwmWPqfIqTcMuPnEYZsdIp/QePG+Xipefg2X9KxlKaFaHmej5qRT5od4n0rlC6FinOSrHxsFkEZ/ml1Q0dwmdQvu+wuuXuOlo6uOPSe+Ymr/SPISzgYIwO2gAe6POmlTnJtVA0Ouqp0EhNTuiEwtFOP2OG/uJGeKs/HCVmK4zroMefGIoRdaxtuMP5CJsQ9Luf21d7muoknHUtaVrxxUl+NBfzOknSzBnJhRt5j0Ixw9GYFKktLGXchxSeRkSGlSnIEZO/WD4Zgk/Zpt3Y3ffzCH3wjVUS+k+dmb1OEQbxiOPzeug8VAZ1fur/4UuFIs+BWX0hI7RCTNr3EFCSU9BowS2OThGlor8WHhL4Q6S3AukqFKeDNO1QwqfcbmEdWxfkemZzFT/OV+nk4YnrwVq8ZZFV4zPWScElXAVrQrpItmfskSxkNu7h/IiWPt+xMNsh5JnZIk9ZikHJpUYUgKNKB0064MqTotT78VzEs4q54/wJ3c3X2esxide451cN86w//7QYovkFDjU61Mdcv3iEmFlRVWe0w/D7zEhWYYQw0JC59T79K5hc+lWFmtVfUiMR4rrGm6x2IswvlHNXX535AjIejktA+hM=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>vE4+bMh0RZCCT196/CvQj3mFQxjDYL0CU9O/bCYQyWzlgzSB4uhuhQ/tH9qBQL5JUamMnnPkskq4I54hVVvQaPFO46O3Ey+/xIINLdekrMV0LOyZ6uISaCntNzpKohmumXR7HTVRlNZeJLaWK05koc7jsgHy/SmOxAmeXrIij962GyNevw1hqTv8Mf8FSudb2nO/0WPDctRHAlb5B+K1WJgUwf8eC5GcryUZLv1ze5qXDbyQtWiPb0OKtmdwdKf6mz2Tkta+0i3paj6iL6vBRmsxZGjSsjomQXbyQMGOTvnbO6Lwr9P173lAY2NGW7c4jmI3cScW5Emx2/B9YSmHcIcIixBapb4F94BNqyunEi6n/thbzNPaRIUSDwGxubEke3AjVVeHO1P80YsrgQIJzamHz1w6MzVolp287lb0lgoczS8mGSex1510+mBLlT3ZeZDDcH0/T7AmUFjrguXZeMqcJZJRzSZUYlzVQH9J7LIfaQ1THTGVTNKCd3GuPTOjdm/e4TZz9gve1WA5Aohx9bonVh6xaL0hu/d42BcB0GdQQBcq1L/JfOc9PCSGUJaYQRX40ZtmpnDK3WPEdAt+NiypmVWpQ4/aLaySsz8J/Qqayt/XCj2Qo+D8MB7NCn7U15NPbAXmpNicU+HQbOvzK4947Yu481g+5yxD8Cuoq2k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="9df48a6f877df3bfcf88b278610950d8a9337e6b" Description="" Url=""><as:assemblyIdentity name="GaitoBotEditor.exe" version="2.7.0.1" publicKeyToken="1763487bddb6f388" language="en-GB" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Springwald Software GmbH, O=Springwald Software GmbH, STREET=Alter Eistreff 36, L=Bochum, S=NRW, PostalCode=44789, C=DE</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>gvG8w02udnxViow9u9V8Q4HCvSM=</DigestValue></Reference></SignedInfo><SignatureValue>pcVcXO/HPwq1J4Z7JoCM6bpPJPmzIsGuLVtUIx/Edm7snkCtpBrjYhfNaJISy+UrR/gr942BWgTNcpXJ1//9QpyjvUzUH7jmhIjtX2fNhNA6/yMHdT/PkVv2usM5m8upnsQe8pM1byXc9m8U0GZdBulY2u5ry1QfnRG1ixkzB+nBTDhLdkxrA4utZx8B5MPpxzfX1Z2R9QgnJw6b7Hsg61xIufm51YwH/6MIYsCnuoTyHuSRg/3mNRuERpNdE1QV8nWb/+3JHMDYcLyPLq2g7BLbH07rU4SM6Cea+m9xum0rDiAbiEFXKK/kRiQW7GMxj31rYqGhavdIfDO4gRENZT0ao5GUOqtnFNrHF/lTeuq4FU99LOU7NESq2HnC8ghUssBG3+NCZIjn+4Y5z73ZW+JfHZRS0wq+O+47ftG4spwq8OKxJNGuVv2cDHfIbhUCiHbdv8giSE2i8YIUWPqfVeqLZdU40+eYzbiJl64vrJXSIRnqx5NnJFtORUxX8VYQjNb+o4JS+mtZmp+qWvp5jaxS1kUFvB28kZbWh2nA+aZcfXBsmYI4FzLNLwJG/rpATXKwVYXPuFyQiPuawvBAjdfEXW7/AN49GRXSfNXSHfPMJuM122fFnAMjdrRe/rCqPs5IGaBBNPVSzO0hR97MuQKrunu9ln7V17x1xtcJsks=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>vE4+bMh0RZCCT196/CvQj3mFQxjDYL0CU9O/bCYQyWzlgzSB4uhuhQ/tH9qBQL5JUamMnnPkskq4I54hVVvQaPFO46O3Ey+/xIINLdekrMV0LOyZ6uISaCntNzpKohmumXR7HTVRlNZeJLaWK05koc7jsgHy/SmOxAmeXrIij962GyNevw1hqTv8Mf8FSudb2nO/0WPDctRHAlb5B+K1WJgUwf8eC5GcryUZLv1ze5qXDbyQtWiPb0OKtmdwdKf6mz2Tkta+0i3paj6iL6vBRmsxZGjSsjomQXbyQMGOTvnbO6Lwr9P173lAY2NGW7c4jmI3cScW5Emx2/B9YSmHcIcIixBapb4F94BNqyunEi6n/thbzNPaRIUSDwGxubEke3AjVVeHO1P80YsrgQIJzamHz1w6MzVolp287lb0lgoczS8mGSex1510+mBLlT3ZeZDDcH0/T7AmUFjrguXZeMqcJZJRzSZUYlzVQH9J7LIfaQ1THTGVTNKCd3GuPTOjdm/e4TZz9gve1WA5Aohx9bonVh6xaL0hu/d42BcB0GdQQBcq1L/JfOc9PCSGUJaYQRX40ZtmpnDK3WPEdAt+NiypmVWpQ4/aLaySsz8J/Qqayt/XCj2Qo+D8MB7NCn7U15NPbAXmpNicU+HQbOvzK4947Yu481g+5yxD8Cuoq2k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>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</X509Certificate><X509Certificate>MIIE5zCCA8+gAwIBAgIQEHCdT/VUCNcwYAHY6pF1uzANBgkqhkiG9w0BAQUFADCBlTELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAlVUMRcwFQYDVQQHEw5TYWx0IExha2UgQ2l0eTEeMBwGA1UEChMVVGhlIFVTRVJUUlVTVCBOZXR3b3JrMSEwHwYDVQQLExhodHRwOi8vd3d3LnVzZXJ0cnVzdC5jb20xHTAbBgNVBAMTFFVUTi1VU0VSRmlyc3QtT2JqZWN0MB4XDTExMDgyNDAwMDAwMFoXDTIwMDUzMDEwNDgzOFowezELMAkGA1UEBhMCR0IxGzAZBgNVBAgTEkdyZWF0ZXIgTWFuY2hlc3RlcjEQMA4GA1UEBxMHU2FsZm9yZDEaMBgGA1UEChMRQ09NT0RPIENBIExpbWl0ZWQxITAfBgNVBAMTGENPTU9ETyBDb2RlIFNpZ25pbmcgQ0EgMjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMv456fo8ZcoQGiAN9LIP46SipI3h0eA6kyZz275FUe97nX0RKzQw9RN9xnA0zxNwUe5WWUWk4zZCoSbn+j2amNY/l/c0X9LUZ8AHACHVCAHV6CCyS+YrzOKu3uAIiVqbK/CLGx5E72jKkjWtY5hVelr6D2AvxQDhRiOfkzpwhmIc5Jyzfr/UE3LLKZ7GnOxAJAs2TLi+/2slUI27DTFE1NossGfQJ/ae8idYmyTokLXeZ+XTzFbUCGhq6/ZHLLOdb5bLFYAJI0RwXUf8P7Slf7w4TEjGGfAWxP9WpiUlP//WQIfAKzm8fL6OnOzHUL8VHXPUTEv49uB2XcjKk9ZziMCAwEAAaOCAUowggFGMB8GA1UdIwQYMBaAFNrtZHQUnBQ8q92Zqb1bKE2LPMnYMB0GA1UdDgQWBBQexbEsfYfaAmh8JbwMB4Q/ts/e8TAOBgNVHQ8BAf8EBAMCAQYwEgYDVR0TAQH/BAgwBgEB/wIBADATBgNVHSUEDDAKBggrBgEFBQcDAzARBgNVHSAECjAIMAYGBFUdIAAwQgYDVR0fBDswOTA3oDWgM4YxaHR0cDovL2NybC51c2VydHJ1c3QuY29tL1VUTi1VU0VSRmlyc3QtT2JqZWN0LmNybDB0BggrBgEFBQcBAQRoMGYwPQYIKwYBBQUHMAKGMWh0dHA6Ly9jcnQudXNlcnRydXN0LmNvbS9VVE5BZGRUcnVzdE9iamVjdF9DQS5jcnQwJQYIKwYBBQUHMAGGGWh0dHA6Ly9vY3NwLnVzZXJ0cnVzdC5jb20wDQYJKoZIhvcNAQEFBQADggEBAJWJd5NoAV582S03B5BdWkJeDGS0NrUP9qvVOSfeIkakSRxmS0YZWS55SQP2nJLfbVA1XAyRLmADWdDxZPdpCfZ+/us0s22xv2aco7oxeLmHNWE9kjEb7/TontasRfoMNjyAZ7u97y7CkOE9cS87wbBYfkXDUnEDB/bzOU2LNiEbAd/Z2l4r6w6XgB5EHFCI9cYSM0qoTaWNL5QMe8a/mizDMs29jCcm8OEwA1AGgrz0O7ODdQbG77ru04D4Usasy3nyOJ57sJJYQpEFyJYhrblLFoEUafE3sP4099yw35f1QxCbdo+0ZfXonxO3HqxvxGmKX7o8YX5eSYYjEy6vFUg=</X509Certificate><X509Certificate>MIIEhDCCA2ygAwIBAgIQQhrylAmEGR9SCkvGJCanSzANBgkqhkiG9w0BAQUFADBvMQswCQYDVQQGEwJTRTEUMBIGA1UEChMLQWRkVHJ1c3QgQUIxJjAkBgNVBAsTHUFkZFRydXN0IEV4dGVybmFsIFRUUCBOZXR3b3JrMSIwIAYDVQQDExlBZGRUcnVzdCBFeHRlcm5hbCBDQSBSb290MB4XDTA1MDYwNzA4MDkxMFoXDTIwMDUzMDEwNDgzOFowgZUxCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJVVDEXMBUGA1UEBxMOU2FsdCBMYWtlIENpdHkxHjAcBgNVBAoTFVRoZSBVU0VSVFJVU1QgTmV0d29yazEhMB8GA1UECxMYaHR0cDovL3d3dy51c2VydHJ1c3QuY29tMR0wGwYDVQQDExRVVE4tVVNFUkZpcnN0LU9iamVjdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAM6qgT+jo2F4qjEAVZURnicPHxzfOpuCaDDASmEd8S8O+r5596Uj71VRloTN2+O5bj4x2AogZ8f02b+U60cEPgLOKqJdhwQJ9jCdGIqXsqoc/EHSoTbL+z2RuufZcDX65OeQw5ujm9M89RKZd7G3CeBo5hy485RjiGpq/gt2yb70IuRnuasaXnfBhQfdDWy/7gbHd2pBnqcP1/vulBe3/IW+pKvEHDHd17bR5PDv3xaPslKT16HUiaEHLr/hARJCHhrh2JU022R5KP+6LhHC5ehbkkj7RwvCbNqtMoNB86XlQXD9ZZBt+vpRxPm9lisZBCzTbafc8H9vg2XiaquHhnUCAwEAAaOB9DCB8TAfBgNVHSMEGDAWgBStvZh6NLQm9/rEJlTvA73gJMtUGjAdBgNVHQ4EFgQU2u1kdBScFDyr3ZmpvVsoTYs8ydgwDgYDVR0PAQH/BAQDAgEGMA8GA1UdEwEB/wQFMAMBAf8wEQYDVR0gBAowCDAGBgRVHSAAMEQGA1UdHwQ9MDswOaA3oDWGM2h0dHA6Ly9jcmwudXNlcnRydXN0LmNvbS9BZGRUcnVzdEV4dGVybmFsQ0FSb290LmNybDA1BggrBgEFBQcBAQQpMCcwJQYIKwYBBQUHMAGGGWh0dHA6Ly9vY3NwLnVzZXJ0cnVzdC5jb20wDQYJKoZIhvcNAQEFBQADggEBAE1CL6bBiusHgJBYRoz4GTlmKjxaLG3P1NmHVY15CxKIe0CP1cf4S41VFmOtt1fcOyu908FPHgOHS0Sb4+JARSbzJkkraoTxVHrUQtr802q7Zn7Knurpu9wHx8OSToM8gUmfktUyCepJLqERcZo20sVOaLbLDhslFq9s3l122B9ysZMmhhfbGN6vRenf+5ivFBjtpF72iZRF8FUESt3/J90GSkD2tLzx5A+ZArv9XQ4uKMG+O18aP5cQhLwWPtijnGMdZstcX9o+8w8KCTUi29vAPwD55g1dZ9H9oB4DK9lA977Mh2ZUgKajuPUZYtXSJrGYJu6ay0SnRVqBlRUa9VE=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
